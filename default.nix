@@ -1,4 +1,4 @@
-{ pkgs }:
+{ pkgs, ... }:
 let
   generated = import ./generated.nix;
 
